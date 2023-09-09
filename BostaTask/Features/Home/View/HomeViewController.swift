@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
         initViewModel()
         registerCells()
         flowLayout()
-        initScreenContent()
+        initObservers()
     }
     
     private func initViewModel() {
@@ -37,7 +37,7 @@ class HomeViewController: UIViewController {
         )
     }
     
-    private func initScreenContent(){
+    private func initObservers(){
         //init disposable
         dispose = DisposeBag()
         
@@ -53,6 +53,7 @@ class HomeViewController: UIViewController {
             self.myAlbumsCollectionView.reloadData()
         }.disposed(by: dispose)
         
+        //subscribe view state
         homeVM.viewState.subscribe { uiState in
             switch uiState.element {
             case .loading:
@@ -61,9 +62,7 @@ class HomeViewController: UIViewController {
                 self.sucessState()
             default:
                 self.errorState()
-
             }
-            
         }.disposed(by: dispose)
     }
     
@@ -84,29 +83,13 @@ class HomeViewController: UIViewController {
         self.baseView.isHidden = true
         self.indicator.isHidden = true
         self.errorImage.isHidden = true
-        self.userName.isHidden = false
-        self.address.isHidden = false
-        self.myAlbumsCollectionView.isHidden = false
-        self.profileLbl.isHidden = false
-        self.myAlbumsLbl.isHidden = false
     }
     private func loadingState(){
-        self.userName.isHidden = true
-        self.address.isHidden = true
-        self.myAlbumsCollectionView.isHidden = true
         self.errorImage.isHidden = true
-        self.profileLbl.isHidden = true
-        self.myAlbumsLbl.isHidden = true
     }
     
     private func errorState(){
-        self.userName.isHidden = true
-        self.address.isHidden = true
-        self.myAlbumsCollectionView.isHidden = true
         self.indicator.isHidden = true
-        self.profileLbl.isHidden = true
-        self.myAlbumsLbl.isHidden = true
-        self.baseView.isHidden = false
         self.errorImage.isHidden = false
     }
   }
@@ -114,7 +97,6 @@ class HomeViewController: UIViewController {
 extension HomeViewController:UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return albums.count
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
