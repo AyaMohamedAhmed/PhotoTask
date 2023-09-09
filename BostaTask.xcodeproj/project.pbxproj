@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031C90082AAA9BE30017C387 /* AlbumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C90062AAA9BE30017C387 /* AlbumsCollectionViewCell.swift */; };
+		031C90092AAA9BE30017C387 /* AlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031C90072AAA9BE30017C387 /* AlbumCollectionViewCell.xib */; };
+		031C900B2AAA9F5F0017C387 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C900A2AAA9F5F0017C387 /* Album.swift */; };
+		031C900D2AAAA1F90017C387 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C900C2AAAA1F90017C387 /* HomeViewModel.swift */; };
+		031F26392AAA86F3008EA1BD /* UserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F26382AAA86F3008EA1BD /* UserRepo.swift */; };
+		031F263C2AAA89ED008EA1BD /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F263B2AAA89ED008EA1BD /* ApiConstants.swift */; };
+		031F26402AAA8EBA008EA1BD /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F263F2AAA8EBA008EA1BD /* AlbumViewController.swift */; };
+		03208EDC2AAA994A003F5800 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03208EDA2AAA994A003F5800 /* HomeViewController.swift */; };
+		03296C252AACAC240069D802 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03296C232AACAC240069D802 /* PhotoCollectionViewCell.swift */; };
+		03296C262AACAC240069D802 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03296C242AACAC240069D802 /* PhotoCollectionViewCell.xib */; };
 		034D28312AAA6A730066F474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D28302AAA6A730066F474 /* AppDelegate.swift */; };
 		034D28332AAA6A730066F474 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D28322AAA6A730066F474 /* SceneDelegate.swift */; };
-		034D28352AAA6A730066F474 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D28342AAA6A730066F474 /* ViewController.swift */; };
 		034D28382AAA6A730066F474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034D28362AAA6A730066F474 /* Main.storyboard */; };
 		034D283A2AAA6A750066F474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034D28392AAA6A750066F474 /* Assets.xcassets */; };
 		034D283D2AAA6A750066F474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034D283B2AAA6A750066F474 /* LaunchScreen.storyboard */; };
+		034D28462AAA736E0066F474 /* UserContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D28452AAA736E0066F474 /* UserContent.swift */; };
+		034D285B2AAA7C940066F474 /* UserNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D285A2AAA7C940066F474 /* UserNetworkService.swift */; };
+		037B99B22AAB48AE00A8AE1A /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B99B12AAB48AE00A8AE1A /* AlbumViewModel.swift */; };
+		037B99BC2AAB7A7000A8AE1A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B99BB2AAB7A7000A8AE1A /* BaseViewModel.swift */; };
+		037B99BE2AAB86A300A8AE1A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B99BD2AAB86A300A8AE1A /* Photo.swift */; };
+		B62DE9F42AAB9943003941B3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62DE9F32AAB9943003941B3 /* UserService.swift */; };
+		D508CE01CE1DA0639E2E4628 /* Pods_BostaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FAFC1321DC0AC08029B /* Pods_BostaTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031C90062AAA9BE30017C387 /* AlbumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewCell.swift; sourceTree = "<group>"; };
+		031C90072AAA9BE30017C387 /* AlbumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCollectionViewCell.xib; sourceTree = "<group>"; };
+		031C900A2AAA9F5F0017C387 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		031C900C2AAAA1F90017C387 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		031F26382AAA86F3008EA1BD /* UserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepo.swift; sourceTree = "<group>"; };
+		031F263B2AAA89ED008EA1BD /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		031F263F2AAA8EBA008EA1BD /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		03208EDA2AAA994A003F5800 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03296C232AACAC240069D802 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		03296C242AACAC240069D802 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		034D282D2AAA6A730066F474 /* BostaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BostaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034D28302AAA6A730066F474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034D28322AAA6A730066F474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		034D28342AAA6A730066F474 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		034D28372AAA6A730066F474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		034D28392AAA6A750066F474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034D283C2AAA6A750066F474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034D283E2AAA6A750066F474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034D28452AAA736E0066F474 /* UserContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContent.swift; sourceTree = "<group>"; };
+		034D285A2AAA7C940066F474 /* UserNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetworkService.swift; sourceTree = "<group>"; };
+		037B99B12AAB48AE00A8AE1A /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		037B99BB2AAB7A7000A8AE1A /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		037B99BD2AAB86A300A8AE1A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		08EA7FAFC1321DC0AC08029B /* Pods_BostaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BostaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56956A29352A26B907D3B981 /* Pods-BostaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BostaTask.debug.xcconfig"; path = "Target Support Files/Pods-BostaTask/Pods-BostaTask.debug.xcconfig"; sourceTree = "<group>"; };
+		B62DE9F32AAB9943003941B3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F2FBE1E91A42077E1E19154B /* Pods-BostaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BostaTask.release.xcconfig"; path = "Target Support Files/Pods-BostaTask/Pods-BostaTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D508CE01CE1DA0639E2E4628 /* Pods_BostaTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031F263A2AAA89D5008EA1BD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				031F263B2AAA89ED008EA1BD /* ApiConstants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		034D28242AAA6A730066F474 = {
 			isa = PBXGroup;
 			children = (
 				034D282F2AAA6A730066F474 /* BostaTask */,
 				034D282E2AAA6A730066F474 /* Products */,
+				8D1C1587D7003D06C68C1037 /* Pods */,
+				4A6F69FED4206A126CB9952E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,151 @@
 		034D282F2AAA6A730066F474 /* BostaTask */ = {
 			isa = PBXGroup;
 			children = (
+				034D28572AAA7B180066F474 /* Common */,
+				034D284F2AAA793E0066F474 /* Features */,
 				034D28302AAA6A730066F474 /* AppDelegate.swift */,
 				034D28322AAA6A730066F474 /* SceneDelegate.swift */,
-				034D28342AAA6A730066F474 /* ViewController.swift */,
-				034D28362AAA6A730066F474 /* Main.storyboard */,
 				034D28392AAA6A750066F474 /* Assets.xcassets */,
 				034D283B2AAA6A750066F474 /* LaunchScreen.storyboard */,
+				034D28362AAA6A730066F474 /* Main.storyboard */,
 				034D283E2AAA6A750066F474 /* Info.plist */,
 			);
 			path = BostaTask;
+			sourceTree = "<group>";
+		};
+		034D284A2AAA76670066F474 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				034D28582AAA7B200066F474 /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		034D284C2AAA77790066F474 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				037B99B12AAB48AE00A8AE1A /* AlbumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		034D284D2AAA77B00066F474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				031F263F2AAA8EBA008EA1BD /* AlbumViewController.swift */,
+				03296C232AACAC240069D802 /* PhotoCollectionViewCell.swift */,
+				03296C242AACAC240069D802 /* PhotoCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034D284F2AAA793E0066F474 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				034D28532AAA79E00066F474 /* Album */,
+				034D28502AAA794E0066F474 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		034D28502AAA794E0066F474 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				034D28552AAA7A1A0066F474 /* View */,
+				034D28542AAA79F60066F474 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		034D28532AAA79E00066F474 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				034D284C2AAA77790066F474 /* ViewModel */,
+				034D284D2AAA77B00066F474 /* View */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		034D28542AAA79F60066F474 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				031C900C2AAAA1F90017C387 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		034D28552AAA7A1A0066F474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03208EDA2AAA994A003F5800 /* HomeViewController.swift */,
+				031C90062AAA9BE30017C387 /* AlbumsCollectionViewCell.swift */,
+				031C90072AAA9BE30017C387 /* AlbumCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034D28572AAA7B180066F474 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B62DE9F52AABB99F003941B3 /* Repository */,
+				034D284A2AAA76670066F474 /* Network */,
+				037B99BA2AAB7A3E00A8AE1A /* ViewModel */,
+				031F263A2AAA89D5008EA1BD /* Helper */,
+				034D28592AAA7B310066F474 /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		034D28582AAA7B200066F474 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				034D285A2AAA7C940066F474 /* UserNetworkService.swift */,
+				B62DE9F32AAB9943003941B3 /* UserService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		034D28592AAA7B310066F474 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				034D28452AAA736E0066F474 /* UserContent.swift */,
+				031C900A2AAA9F5F0017C387 /* Album.swift */,
+				037B99BD2AAB86A300A8AE1A /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		037B99BA2AAB7A3E00A8AE1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				037B99BB2AAB7A7000A8AE1A /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A6F69FED4206A126CB9952E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7FAFC1321DC0AC08029B /* Pods_BostaTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D1C1587D7003D06C68C1037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56956A29352A26B907D3B981 /* Pods-BostaTask.debug.xcconfig */,
+				F2FBE1E91A42077E1E19154B /* Pods-BostaTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B62DE9F52AABB99F003941B3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				031F26382AAA86F3008EA1BD /* UserRepo.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034D28412AAA6A750066F474 /* Build configuration list for PBXNativeTarget "BostaTask" */;
 			buildPhases = (
+				E062562298DD7362388B5652 /* [CP] Check Pods Manifest.lock */,
 				034D28292AAA6A730066F474 /* Sources */,
 				034D282A2AAA6A730066F474 /* Frameworks */,
 				034D282B2AAA6A730066F474 /* Resources */,
+				F298EB1B313E1962BD4E406C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031C90092AAA9BE30017C387 /* AlbumCollectionViewCell.xib in Resources */,
+				03296C262AACAC240069D802 /* PhotoCollectionViewCell.xib in Resources */,
 				034D283D2AAA6A750066F474 /* LaunchScreen.storyboard in Resources */,
 				034D283A2AAA6A750066F474 /* Assets.xcassets in Resources */,
 				034D28382AAA6A730066F474 /* Main.storyboard in Resources */,
@@ -133,13 +318,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E062562298DD7362388B5652 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BostaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F298EB1B313E1962BD4E406C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BostaTask/Pods-BostaTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BostaTask/Pods-BostaTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BostaTask/Pods-BostaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		034D28292AAA6A730066F474 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034D28352AAA6A730066F474 /* ViewController.swift in Sources */,
+				037B99B22AAB48AE00A8AE1A /* AlbumViewModel.swift in Sources */,
+				031C90082AAA9BE30017C387 /* AlbumsCollectionViewCell.swift in Sources */,
+				031C900D2AAAA1F90017C387 /* HomeViewModel.swift in Sources */,
+				037B99BE2AAB86A300A8AE1A /* Photo.swift in Sources */,
+				03208EDC2AAA994A003F5800 /* HomeViewController.swift in Sources */,
+				031F263C2AAA89ED008EA1BD /* ApiConstants.swift in Sources */,
+				034D285B2AAA7C940066F474 /* UserNetworkService.swift in Sources */,
 				034D28312AAA6A730066F474 /* AppDelegate.swift in Sources */,
+				031C900B2AAA9F5F0017C387 /* Album.swift in Sources */,
+				03296C252AACAC240069D802 /* PhotoCollectionViewCell.swift in Sources */,
+				031F26392AAA86F3008EA1BD /* UserRepo.swift in Sources */,
+				031F26402AAA8EBA008EA1BD /* AlbumViewController.swift in Sources */,
+				037B99BC2AAB7A7000A8AE1A /* BaseViewModel.swift in Sources */,
+				034D28462AAA736E0066F474 /* UserContent.swift in Sources */,
+				B62DE9F42AAB9943003941B3 /* UserService.swift in Sources */,
 				034D28332AAA6A730066F474 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +522,13 @@
 		};
 		034D28422AAA6A750066F474 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56956A29352A26B907D3B981 /* Pods-BostaTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4687NNSQQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BostaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +536,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,11 +552,13 @@
 		};
 		034D28432AAA6A750066F474 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FBE1E91A42077E1E19154B /* Pods-BostaTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4687NNSQQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BostaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +566,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

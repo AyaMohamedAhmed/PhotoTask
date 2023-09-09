@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in AlbumViewModel.getAlbumsPhotos(albumId:):AlbumViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "albumId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HomeViewController.collectionView(_:cellForItemAt:):HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "albums">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ForumService.path.getter:ForumService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "path">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HomeViewModel.getUserAlbums(userId:):HomeViewModel.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

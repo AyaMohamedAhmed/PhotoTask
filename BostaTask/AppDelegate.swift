@@ -6,13 +6,19 @@
 //
 
 import UIKit
+import Moya
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    private(set) var userId:Int!
+    private(set) lazy var userRepository = {
+        return UserRepo(networkManger: UserNetworkService(moyaProvider: MoyaProvider<UserService>()))
+    }()
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        userId = Int.random(in: 1...10)
         // Override point for customization after application launch.
         return true
     }
